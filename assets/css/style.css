@@ -1,0 +1,703 @@
+/* Global CSS Start */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6,p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a, a:hover {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.global_btn {
+    color: #fff;
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #e550ed;
+    padding: 12px 30px;
+    border-radius: unset;
+    border: 1px solid #e550ed;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+.global_btn:hover {
+    background: transparent;
+    border: 1px solid #e550ed;
+    color: #e550ed;
+}
+/* Global CSS End */
+
+
+/* Header Section CSS Start */
+.header-section {
+    width: 100%;
+    padding: 115px 0px 65px;
+    background: url('../Images/Banner.jpg') center top no-repeat;
+    background-size: cover;
+}
+.header-section .bg-light {
+    background: transparent !important;
+}
+.header-section .navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    margin-left: 50px;
+}
+.header-section .navbar .navbar-nav {
+    margin-left: 40px !important;
+    margin-top: 20px;
+}
+.header-section .navbar .navbar-nav .nav-item .nav-link {
+    color: #ffff;
+    font-size: 21px;
+    line-height: 31px;
+    font-weight: 500;
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+.header-section .navbar .navbar-nav .nav-item .nav-link:hover {
+    opacity: 70%;
+}
+.header-section .navbar .navbar-nav .dropdown-menu {
+    background: transparent;
+    border: none;
+}
+.header-section .navbar .navbar-nav .dropdown-menu .dropdown-item {
+    padding: .25rem 0.5rem;
+    color: #fff;
+    font-weight: 500;
+}
+.header-section .navbar .navbar-nav .dropdown-menu .dropdown-item:hover {
+    opacity: 70%;
+    background: none !important;
+}
+/* Header Section CSS End */
+
+
+/* Banner Section CSS Start */
+.banner {
+    width: 100%;
+    padding: 190px 170px 0px;
+}
+.banner .main-title {
+    width: 100%;
+}
+.banner .main-title h1 {
+    color: #fff;
+    font-size: 58px;
+    line-height: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.banner .main-title p {
+    color: #fff;
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 55px;
+}
+.banner .main-title .global_btn {
+    margin-top: 55px;
+}
+.banner .sub-title {
+    width: 100%;
+    padding-top: 30px;
+}
+.banner .sub-title .m_title {
+    
+}
+.banner .sub-title h4 {
+    color: #00dde4;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: url('../Images/bar.png') right top no-repeat;
+    padding-top: 10px;
+}
+.banner .sub-title h4 span {
+    color: #fff;
+}
+/* Banner Section CSS End */
+
+
+/* Feature Section CSS Start */
+.feature {
+    width: 100%;
+    padding: 183px 0px;
+    background: url(../Images/feature.png) center top no-repeat;
+    background-size: cover;
+    margin-bottom: -45px;
+    position: relative;
+    z-index: 1;
+}
+.feature .card {
+    border: none;
+}
+.feature .card-img-top {
+    width: 35px;
+    height: 50px;
+    margin: 0 auto;
+    
+}
+.feature .card .card-body {
+    width: 100%;
+}
+.feature .card .card-body .card-title {
+    color: #444444;
+    font-size: 26px;
+    line-height: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 15px 0px;
+}
+.feature .card .card-body .card-text {
+    color: #000000;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+}
+/* Feature Section CSS End */
+
+
+/* Course Section CSS Start */
+.course {
+    width: 100%;
+    padding: 100px 0px;
+    background: #432e8b;
+    position: relative;
+}
+.course::after {
+    content: "";
+    background: url('../Images/course_after.png') left no-repeat;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 25%;
+}
+.course .course-title {
+    width: 100%;
+    padding-bottom: 50px;
+}
+.course .course-title h2 {
+    color: #fff;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.course .card {
+    background: none;
+    border: none;
+}
+.course .card .image {
+    width: 250px;
+    background: #00dde4;
+}
+.course .card .image img {
+    margin-left: 18px;
+    margin-top: 18px;
+    margin-bottom: -18px;
+}
+.course .card .card-img-top {
+    border-top-left-radius: unset;
+    border-top-right-radius: unset;
+}
+.course .card .card-body {}
+.course .card .card-body .card-title {
+    color: #00dde4;
+    font-size: 26px;
+    line-height: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 25px 0px 20px;
+}
+.course .card .card-body .card-text {
+    color: #fff;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    word-spacing: 2px;
+}
+.course .card .card-body .global_btn {
+    font-size: 18px;
+    line-height: 28px;
+    padding: 10px 25px
+}
+
+
+/* Course Section CSS End */
+
+
+/* About Section CSS Start */
+.about {
+    width: 100%;
+    padding: 190px 0px 100px;
+    background: url(../Images/n.png) center top no-repeat;
+    background-size: cover;
+    margin-top: -66px;
+    position: relative;
+}
+.about .about-img {
+    width: 100%;
+    margin-left: 35px;
+    position: relative;
+}
+.about .about-img::after {
+    content: "";
+    background: url(../Images/about_after.png) bottom no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: -32%;
+    top: 45%;
+}
+.about .about-img img {
+    width: 90%;
+}
+.about .about-text {
+    width: 100%;
+    margin-left: 30px;
+}
+.about .about-text h4 {
+    color: #00dde4;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.about .about-text h5 {
+    color: #444444;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.about .about-text p {
+    color: #444444;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+.about .about-text .global_btn {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 10px 23px
+}
+/* About Section CSS End */
+
+
+/* Instructor Section CSS Start */
+.instructor {
+    width: 100%;
+    padding: 80px 0px;
+    background: #432e8b;
+}
+.instructor .instructor-title {
+    width: 100%;
+    padding-bottom: 50px;
+}
+.instructor .instructor-title h2 {
+    color: #fff;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.instructor .carousel-inner {
+    width: 100%;
+}
+.instructor .carousel-inner .carousel-item .item-1 {
+    width: 100%;
+}
+.instructor .carousel-inner .carousel-item .item-1 .car_image {
+    width: 100%;
+    text-align: center;
+}
+.instructor .carousel-inner .carousel-item .item-1 img {
+    width: 300px;
+}
+.instructor .carousel-inner .carousel-item .item-1 .carousel-caption {
+    position: relative;
+    background: #00dde4;
+    width: 235px;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    bottom: 50px;
+    left: 0;
+    z-index: 10;
+    padding-top: 20px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 0px;
+    border: 1px solid #00dde4;
+}
+.instructor .carousel-inner .carousel-item .item-1 .carousel-caption:hover {
+    background: #fff;
+    color: #00dde4;
+    border: 1px solid #00dde4;
+
+}
+.instructor .carousel-inner .carousel-item .item-1 .btn {
+    display: block;
+}
+.instructor .carousel-inner .carousel-item .item-1 .carousel-caption h5 {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.instructor .carousel-control-next, .carousel-control-prev {
+    width: 30%;
+}
+.instructor .social_icon {
+    width: 100%;
+    text-align: center;
+    margin-top: -30px;
+}
+.instructor .social_icon .icon_gap {
+    color: #000;
+    margin-left: 10px;
+}
+.instructor .social_icon .icon_gap:hover {
+    color: #fff;
+}
+
+/* Instructor Section CSS End */
+
+
+/* Client Section CSS Start */
+.client {
+    width: 100%;
+    padding: 115px 0px;
+    background: url('../Images/slider_banner.jpg') center top no-repeat;
+    background-size: cover;
+}
+.client .client-title {
+    width: 100%;
+    margin-bottom: 50px;
+}
+.client .client-title h2 {
+    color: #00dde4;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.client .carousel-indicators {
+    position: absolute;
+    top: 110% !important;
+}
+.client .carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 3px solid #00dde4;
+    border-radius: 50%;
+    transition: .6s ease;
+}
+.client .carousel-indicators .active {
+    background: #00dde4;
+}
+.client .carousel-inner .carousel-item .item {
+    width: 100%;
+    padding: 40px 0px;
+}
+.client .carousel-inner .carousel-item .item p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    font-style: italic;
+}
+/* Client Section CSS Ent */
+
+
+/* Gallery Section CSS Start */
+
+.gallery {
+    width: 100%;
+    padding: 90px 0px 0px;
+    position: relative;
+}
+.gallery::after {
+    content: "";
+    background: url(../Images/after.png) top no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0 ;
+    left: -25%;
+    
+}
+.gallery .gallery-title {
+    padding-bottom: 40px;
+}
+.gallery .gallery-title h2 {
+    color: #00dde4;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.gallery .gallery-title h4 {
+    color: #444444;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.gallery .col, .gallery .col-1, .gallery .col-10, .gallery .col-11, .gallery .col-12, .gallery .col-2, .gallery .col-3, .gallery .col-4, .gallery .col-5, .gallery .col-6, .gallery .col-7, .gallery .col-8, .gallery .col-9, .gallery .col-auto, .gallery .col-lg, .gallery .col-lg-1, .gallery .col-lg-10, .gallery .col-lg-11, .gallery .col-lg-12, .gallery .col-lg-2, .gallery .col-lg-3, .gallery .col-lg-4, .gallery .col-lg-5, .gallery .col-lg-6, .gallery .col-lg-7, .gallery .col-lg-8, .gallery .col-lg-9, .gallery .col-lg-auto, .gallery .col-md, .gallery .col-md-1, .gallery .col-md-10, .gallery .col-md-11, .gallery .col-md-12, .gallery .col-md-2, .gallery .col-md-3, .gallery .col-md-4, .gallery .col-md-5, .gallery .col-md-6, .gallery .col-md-7, .gallery .col-md-8, .gallery .col-md-9, .gallery .col-md-auto, .gallery .col-sm, .gallery .col-sm-1, .gallery .col-sm-10, .gallery .col-sm-11, .gallery .col-sm-12, .gallery .col-sm-2, .gallery .col-sm-3, .gallery .col-sm-4, .gallery .col-sm-5, .gallery .col-sm-6, .gallery .col-sm-7, .gallery .col-sm-8, .gallery .col-sm-9, .gallery .col-sm-auto, .gallery .col-xl, .gallery .col-xl-1, .gallery .col-xl-10, .gallery .col-xl-11, .gallery .col-xl-12, .gallery .col-xl-2, .gallery .col-xl-3, .gallery .col-xl-4, .gallery .col-xl-5, .gallery .col-xl-6, .gallery .col-xl-7, .gallery .col-xl-8, .gallery .col-xl-9, .gallery .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 0px;
+}
+.gallery .n {
+    padding-right: 0px;
+}
+.gallery .figure {
+    display: unset;
+    margin-bottom: 15px;
+}
+.gallery .figure img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 14px !important;
+}
+.gallery .advice-title {
+    width: 100%;
+    padding: 50px 0px;
+}
+.gallery .advice-title h4 {
+    color: #444444;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+/* Gallery Section CSS End */
+
+
+/* Download Section CSS start */
+.download {
+    width: 100%;
+    padding: 115px 0px 60px;
+    background: url('../Images/download.jpg') center top no-repeat;
+    background-size: cover;
+}
+.download .download-inner {
+    width: 100%;
+}
+.download .download-inner h1 {
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.download .download-inner .global_btn {
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #00dde4;
+    padding: 12px 30px;
+    margin-top: 155%;
+    margin-left: 15%;
+    border-radius: unset;
+    border: 1px solid #00dde4;
+    transition: .5s ease-in-out;
+}
+.download .download-inner .global_btn:hover {
+    background: #432e8b;
+    border: 1px solid #432e8b;
+    color: #00dde4;
+}
+/* Download Section CSS End */
+
+
+/* Register Section CSS Start */
+.register {
+    width: 100%;
+    padding: 130px 0px 70px;
+    background: url('../Images/registerjpg.jpg') center top no-repeat;
+    background-size: cover;
+}
+.register .register-inner {
+    width: 100%;
+    text-align: right;
+}
+.register .register-inner h2 {
+    color: #00dde4;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.register .register-inner p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-bottom: 5%;
+}
+.register .register-inner .global_btn {
+    margin-right: 16%;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: #00dde4;
+    padding: 12px 30px;
+    border-radius: unset;
+    border: 1px solid #00dde4;
+    transition: .5s ease-in-out;
+}
+.register .register-inner .global_btn:hover {
+    background: transparent;
+    border: 1px solid #00dde4;
+    color: #00dde4;
+}
+/* Register Section CSS End */
+
+
+/* Footer Section CSS Start */
+.footer-section {
+    width: 100%;
+    padding: 60px 0px 40px;
+    background: #432e8b;
+    position: relative;
+}
+.footer-section::after {
+    content: "";
+    background: url(../Images/footer_after.png) top no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -26%;
+    right: -33%;
+}
+.footer-section .fo-title {
+    padding-left: 15%;
+}
+.footer-section .fo-title a {}
+.footer-section .fo-title a img {
+    margin-left: 10%;
+}
+.footer-section .fo-title h2 {
+    color: #00dde4;
+    font-size: 40px;
+    line-height: 35px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.footer-section .fo-title p {
+    color: #fff;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 300;
+}
+.footer-section .fo-menu {
+    width: 100%;
+    padding: 50px 0px 0px 25%;
+}
+.footer-section .fo-menu h4 {
+    color: #00dde4;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.footer-section .fo-menu .fo-m-item {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 10px;
+} 
+.footer-section .fo-menu .fo-m-item:hover {
+    opacity: 70%;
+}
+.footer-section .fo-contact {
+    width: 100%;
+    padding: 50px 0px;
+}
+.footer-section .fo-contact h4 {
+    color: #00dde4;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.footer-section .fo-contact p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+
+}
+.footer-section .fo-contact p a {
+    color: #fff;
+}
+.footer-section .fo-contact p a:hover {
+    opacity: 70%;
+}
+.footer-section .fo-contact .social_icon {
+    margin-top: 30px;
+}
+.footer-section .fo-contact .icon_gap {
+    color: #000;
+    margin-left: 10px;
+}
+.footer-section .fo-contact .gap {
+    margin-left: 0px !important;
+}
+.footer-section .fo-contact .icon_gap:hover {
+    color:#fff;
+}
+/* Footer Section CSS End */
+
+
